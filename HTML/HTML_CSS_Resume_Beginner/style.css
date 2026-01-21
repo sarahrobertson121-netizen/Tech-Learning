@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #ff7613;
+  --primary-color: #1379ff;
   --text-color: #727171;
 }
 html {
@@ -25,12 +25,13 @@ body {
 
 /*common styles*/
 img {
-  width: 15%;
+  width: 100%;
 }
 a {
   text-decoration: none;
   color: white;
 }
+
 /*layouts*/
 .container {
   max-width: 1000px;
@@ -45,5 +46,37 @@ a {
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
+    grid-template-columns: 1fr;
+    padding: 3rem;
+    gap: 7rem;
   }
+}
+.profile {
+  grid-column: 1 / -1;
+  margin-bottom: 2rem;
+}
+
+/*profile*/
+.profile_container {
+  display: flex;
+  gap: 2rem;
+}
+.profile_profileImg {
+  max-width: 250px;
+}
+.profile_name_firstName {
+  color: white;
+  font-weight: 200;
+  font-size: clamp(2rem, 8vw, 4rem);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: -0.8rem;
+}
+.profile_name_lastName {
+  color: var(--primary-color);
+  font-weight: 200;
+  font-size: clamp(2rem, 8vw, 4rem);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: -0.8rem;
 }
