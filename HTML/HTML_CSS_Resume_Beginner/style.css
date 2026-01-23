@@ -121,3 +121,11 @@ a {
   margin-left: 3rem;
   line-height: 2rem;
 }
+/* Ref */
+.ref_item {
+  margin-top: 2rem;
+}
+.ref_name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
