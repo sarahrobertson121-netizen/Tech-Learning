@@ -33,6 +33,7 @@ a {
 }
 .description {
   margin-top: 1rem;
+  margin-left: 1rem;
   font-size: 1.5rem;
   font-weight: 400;
   color: var(--text-color);
@@ -46,6 +47,7 @@ a {
 }
 .item_preTitle {
   font-size: 1.4rem;
+  margin-left: 1rem;
   color: var(--text-color);
   font-weight: 300;
   margin: 2rem;
@@ -55,12 +57,14 @@ a {
   color: white;
   font-weight: 500;
   margin: 2rem;
+  margin-left: 1rem;
 }
 .item_subtitle {
   font-size: 1.4rem;
   color: var(--text-color);
   font-weight: 400;
   margin: 2rem;
+  margin-left: 1rem;
 }
 
 /*layouts*/
@@ -94,8 +98,7 @@ a {
 }
 .group-3 {
   max-width: 700px;
-  flex-direction: column;
-  gap: 5rem;
+  width: 100%;
   margin: 0 auto;
   grid-column: 1/-1;
   display: flex;
@@ -173,6 +176,7 @@ a {
 .ref_name {
   font-size: 1.5rem;
   font-weight: 700;
+  margin-left: 1rem;
 }
 /*education*/
 .edu_item {
