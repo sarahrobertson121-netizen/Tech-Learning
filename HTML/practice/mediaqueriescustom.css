@@ -1,13 +1,14 @@
-body{
-  background-color: lightgrey
+body {
+  background-color: lightgrey;
 }
 
 @media (max-width: 600px) {
-   /*Above 600px don't pay any attention*/ 
+  /*Above 600px don't pay any attention*/
   body {
-    background-color: black
+    background-color: black;
   }
   h1 {
     color: white;
   }
 }
+
