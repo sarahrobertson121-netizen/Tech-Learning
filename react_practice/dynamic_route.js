@@ -17,4 +17,4 @@ function UserProfile() {
   return <h1>User ID: {id}</h1>;
 }
 
-/* /user/7 = user ID: 7
+/* /user/7 = user ID: 7*/
