@@ -22,7 +22,8 @@ export const protect = async (req, res, next) => {
         .json({ message: "Not authorised, user not found" });
     }
 
-    req.user = user.rows[0];
+    req.user = user.rows[0]; 
+    //attached userinfo to the request object
 
     next();
   } catch (error) {
